@@ -38,3 +38,8 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+/elasticsearch-7.14.1
+elasticsearch-7.14.1-linux-x86_64.tar.gz
+elasticsearch-7.14.1-linux-x86_64.tar.gz.sha512
+vips-8.9.2.tar.gz
