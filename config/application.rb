@@ -27,6 +27,10 @@ module AwsomeEvent
     config.i18n.default_locale = :ja
     config.active_storage.variant_processor = :vips
 
+    config.action_dispatch.rescue_responses.merge!(
+      "YourNewExeption" => :not_found
+    )
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
